@@ -6,6 +6,7 @@
 #include <thrust/execution_policy.h>
 #include <thrust/fill.h>
 #include <thrust/host_vector.h>
+#include <thrust/sequence.h>
 #ifdef USE_HIP
 #include <thrust/system/hip/detail/execution_policy.h>
 #else
